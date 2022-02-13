@@ -376,6 +376,7 @@
     
     CGFloat maxX = _config.bottomLabelWidth * _horizontalDatas.count + _collectionView.contentInset.right;
     
+    [_yArray removeAllObjects];
     [self.horizontalDatas enumerateObjectsUsingBlock:^(ORLineChartHorizontal * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         
 
