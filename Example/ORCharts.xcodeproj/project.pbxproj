@@ -118,8 +118,8 @@
 			children = (
 				4D24656A22DAE953008C7DC4 /* ORLineViewController.h */,
 				4D24656C22DAE953008C7DC4 /* ORLineViewController.m */,
-				4D24656B22DAE953008C7DC4 /* ORLineMoreViewController.m */,
 				4D24656D22DAE953008C7DC4 /* ORLineMoreViewController.h */,
+				4D24656B22DAE953008C7DC4 /* ORLineMoreViewController.m */,
 			);
 			path = LineChartVC;
 			sourceTree = "<group>";

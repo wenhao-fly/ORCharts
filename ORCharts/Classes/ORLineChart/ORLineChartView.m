@@ -385,8 +385,9 @@
         //所有的value位置
         [_yArray addObject:[NSNumber numberWithFloat:y]];
         
+        //去除最左最右
         if (idx == 0) {
-            [points addObject:[NSValue valueWithCGPoint:CGPointMake(-self.collectionView.contentInset.left, y)]];
+//            [points addObject:[NSValue valueWithCGPoint:CGPointMake(-self.collectionView.contentInset.left, y)]];
         }
         
         CGPoint center = CGPointMake(self.config.bottomLabelWidth * 0.5 + idx * self.config.bottomLabelWidth, y);
@@ -399,7 +400,7 @@
         }
         
         if (idx == self.horizontalDatas.count - 1) {
-            [points addObject:[NSValue valueWithCGPoint:CGPointMake(maxX, y)]];
+//            [points addObject:[NSValue valueWithCGPoint:CGPointMake(maxX, y)]];
         }
     }];
     
