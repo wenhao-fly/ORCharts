@@ -17,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSAttributedString *title;
 @property (nonatomic, strong) ORLineChartConfig *config;
 
+- (void)setValueY:(CGFloat)valueY withVule:(CGFloat)value;
+
 @end
 
 NS_ASSUME_NONNULL_END

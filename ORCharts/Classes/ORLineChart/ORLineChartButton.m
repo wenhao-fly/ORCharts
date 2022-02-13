@@ -73,15 +73,16 @@ static char leftNameKey;
     return self;
 }
 
+//_orTintColor 暂时不需要点击变色
 - (void)setSelected:(BOOL)selected {
     [super setSelected:selected];
-    self.backgroundColor = selected ? _orTintColor : _orBackGroundColor;
+    self.backgroundColor = selected ? _orBackGroundColor : _orBackGroundColor;
 }
 
 - (void)or_setTintColor:(UIColor *)tintColor backgroundColor:(UIColor *)backgroundColor {
     _orTintColor = tintColor;
     _orBackGroundColor = backgroundColor;
-    self.backgroundColor = self.selected ? _orTintColor : _orBackGroundColor;
+    self.backgroundColor = self.selected ? _orBackGroundColor : _orBackGroundColor;
     self.layer.borderColor = tintColor.CGColor;
 }
 

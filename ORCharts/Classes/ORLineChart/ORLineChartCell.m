@@ -14,6 +14,8 @@
 @property (nonatomic, strong) UILabel *titleLabel;
 @property (nonatomic, strong) CAShapeLayer *lineLayer;
 
+@property (nonatomic, strong) UILabel *valueLabel;
+
 @end
 
 @implementation ORLineChartCell
@@ -48,6 +50,12 @@
 
     self.titleLabel.font = [UIFont systemFontOfSize:10];
     self.titleLabel.textColor = [UIColor blackColor];
+    
+    self.valueLabel = [UILabel new];
+    self.valueLabel.textAlignment = NSTextAlignmentCenter;
+    self.valueLabel.font = [UIFont systemFontOfSize:10];
+    self.valueLabel.textColor = [UIColor grayColor];
+    [self.contentView addSubview:self.valueLabel];
 }
 
 - (void)layoutSubviews {
@@ -77,6 +85,16 @@
     _lineLayer.lineWidth = _config.bglineWidth;
     _lineLayer.hidden = !_config.showVerticalBgline;
     [self setNeedsLayout];
+}
+
+- (void)setValueY:(CGFloat)valueY withVule:(CGFloat)value {
+    self.valueLabel.frame = CGRectMake(0, valueY - 25, self.bounds.size.width, 20);
+    if(value > 0) {
+        self.valueLabel.text = [NSString stringWithFormat:@"%.0f",value];
+    }else{
+        self.valueLabel.text = @"";
+    }
+    
 }
 
 @end

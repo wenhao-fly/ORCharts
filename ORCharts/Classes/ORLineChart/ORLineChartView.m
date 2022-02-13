@@ -138,6 +138,8 @@
 
 @property (nonatomic,strong)NSMutableArray <ORLineChartButton *>*controls;
 
+//展示所有的点的y
+@property (nonatomic,strong)NSMutableArray *yArray;
 
 @end
 
@@ -217,14 +219,15 @@
     [_collectionView.layer addSublayer:_lineLayer];
     
     _shadowLineLayer = [ORChartUtilities or_shapelayerWithLineWidth:1 strokeColor:nil];
+    //阴影
     [_collectionView.layer addSublayer:_shadowLineLayer];
     
     _indicatorLineLayer = ({
         CALayer *layer = [CALayer layer];
         layer;
     });
-    
-    [_collectionView.layer addSublayer:_indicatorLineLayer];
+    //一条竖线
+//    [_collectionView.layer addSublayer:_indicatorLineLayer];
 
     
     _circleLayer = ({
@@ -244,8 +247,9 @@
     });
     [_collectionView.layer addSublayer:_animationLayer];
     
-    _indicator = [_ORIndicatorView new];;
-    [_collectionView addSubview:_indicator];
+    _indicator = [_ORIndicatorView new];
+    //文字指示
+//    [_collectionView addSubview:_indicator];
 
 }
 
@@ -255,6 +259,8 @@
     _horizontalDatas = [NSMutableArray array];
     _config = [ORLineChartConfig new];
     _defaultSelectIndex = 0;
+    
+    _yArray = [NSMutableArray array];
 }
 
 - (void)_or_configChart {
@@ -374,6 +380,9 @@
         
 
         CGFloat y = ORInterpolation(topHeight, height - self.bottomTextHeight, (obj.value - self.lineChartValue.max) / ratio);
+        
+        //所有的value位置
+        [_yArray addObject:[NSNumber numberWithFloat:y]];
         
         if (idx == 0) {
             [points addObject:[NSValue valueWithCGPoint:CGPointMake(-self.collectionView.contentInset.left, y)]];
@@ -682,6 +691,7 @@
     ORLineChartCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([ORLineChartCell class]) forIndexPath:indexPath];
     cell.title = self.horizontalDatas[indexPath.row].title;
     cell.config = self.config;
+    [cell setValueY:[self.yArray[indexPath.row] floatValue] withVule:self.horizontalDatas[indexPath.row].value];
     return cell;
 }
 
