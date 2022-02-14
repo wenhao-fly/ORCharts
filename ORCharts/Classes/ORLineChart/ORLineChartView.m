@@ -186,6 +186,9 @@
         [collectionView registerClass:[ORLineChartCell class] forCellWithReuseIdentifier:NSStringFromClass([ORLineChartCell class])];
         collectionView.delegate = self;
         collectionView.dataSource = self;
+        if (@available(iOS 11.0, *)) {
+            collectionView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+        }
         collectionView;
     });
     [self addSubview:_collectionView];
@@ -415,8 +418,8 @@
     _closeLayer.path = [ORChartUtilities or_closePathWithPoints:points isCurve:isCurve maxY: height - self.bottomTextHeight].CGPath;
     
     
-    [points removeLastObject];
-    [points removeObjectAtIndex:0];
+//    [points removeLastObject];
+//    [points removeObjectAtIndex:0];
     
     _circleLayer.position = [points.lastObject CGPointValue];
 

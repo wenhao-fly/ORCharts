@@ -31,6 +31,9 @@
     
     _lineChartView = [[ORLineChartView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 350)];
     _lineChartView.config.gradientLocations = @[@(0.8), @(0.9)];
+    
+    _lineChartView.config.leftWidth = 0;
+    _lineChartView.config.style = ORLineChartStyleControl;
 
     _lineChartView.defaultSelectIndex = 1;
 
