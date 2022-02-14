@@ -365,8 +365,10 @@
             [path addLineToPoint:CGPointMake(self.bounds.size.width, obj.center.y)];
         }else {
             UIBezierPath *path = [UIBezierPath bezierPath];
-            [path moveToPoint:CGPointMake(self.config.leftWidth, obj.center.y)];
-            [path addLineToPoint:CGPointMake(self.bounds.size.width, obj.center.y)];
+//            [path moveToPoint:CGPointMake(self.config.leftWidth, obj.center.y)];
+//            [path addLineToPoint:CGPointMake(self.bounds.size.width, obj.center.y)];
+            [path moveToPoint:CGPointMake(self.config.leftWidth + self.config.bottomLabelWidth/2, obj.center.y)];
+            [path addLineToPoint:CGPointMake(self.bounds.size.width-self.config.bottomLabelWidth/2, obj.center.y)];
             self.bottomLineLayer.path = path.CGPath;
         }
     }];
@@ -632,6 +634,9 @@
     [_indicator or_setTitle:title inset:_config.indicatorContentInset];
     CGFloat leftInset = MAX((_indicator.bounds.size.width - _config.bottomLabelWidth) / 2.0 + _config.contentMargin, 0);
 
+    //暂时不需要左右间隔
+    leftInset = 0;
+    rightInset = 0;
     self.collectionView.contentInset = UIEdgeInsetsMake(0, leftInset, 0, rightInset);
 
     if (self.collectionView.contentOffset.x != -leftInset) {
