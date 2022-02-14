@@ -338,8 +338,8 @@
     
     CGFloat indecaterHeight = _indicator.bounds.size.height;
 
-    
-    CGFloat topHeight = indecaterHeight * 2;
+    //indecaterHeight * 2 = 76 距离顶端太大 现在没了_indicator 改为20
+    CGFloat topHeight = 20;
     
     CGFloat height = self.collectionView.bounds.size.height;
     
