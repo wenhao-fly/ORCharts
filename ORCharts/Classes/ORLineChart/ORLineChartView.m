@@ -386,7 +386,9 @@
         
 
         CGFloat y = ORInterpolation(topHeight, height - self.bottomTextHeight, (obj.value - self.lineChartValue.max) / ratio);
-        
+        if(obj.value == 0) {
+            y = height - self.bottomTextHeight;
+        }
         //所有的value位置
         [_yArray addObject:[NSNumber numberWithFloat:y]];
         
