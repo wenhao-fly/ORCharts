@@ -7,44 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01DC2F2448DF863867A1D1EB61CBF743 /* ORChartUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CACBE24DA38277ABA115FCA18CFBBC /* ORChartUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		091CD6E564425B67A6F9EC2C17CCC605 /* ORRingChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FD2DC667BC8D9FED74211FB65E9989 /* ORRingChartView.m */; };
-		0E0235098299DC5EC6440B328C3BCB2B /* ORChartUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EBEF0878685717944A639786F967EB /* ORChartUtilities.m */; };
-		157A4EF590170B3F56C661C393110CEE /* Pods-ORCharts_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE954EF40A1CC664B2461145BFA30228 /* Pods-ORCharts_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16B5405BF55E7F63EA2F82C7151D4CA9 /* ORLineChartCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 58AE3E8E35E03A76BBBCB84A73AC778A /* ORLineChartCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19AD18E74BD51F138BB4C94C20D14C63 /* ORCharts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69BBAA13D3CC03ACB2E04FCA240C76A7 /* ORCharts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22EF7BFB3D8178BCAC525045D4C80C94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		36ED54865711248DA10F2FBB3E3DB01B /* ORLineChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A21DA7475457A876CD9DE7E54A8ED94 /* ORLineChartCell.m */; };
-		3D2041C3E5F83E1BF246FE9822FD110A /* ORLineChartValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B63B179326DFB1DE9F7A01EF821785 /* ORLineChartValue.m */; };
-		46BE74539BCF88D478EDA7A328880DE1 /* ORRingChartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B85CAFF60B90AA1CD3ABCCCD029A493 /* ORRingChartConfig.m */; };
-		5AD5D578D5186CC5E8C33A019698FDEE /* ORLineChartButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D47085A9421DDFD1E6894F31415B3134 /* ORLineChartButton.m */; };
-		6E7BBF27F7C44507A5BA1EEBF847F24F /* ORLineChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 681ABCC0FFA029371C14FD7BD085C9C7 /* ORLineChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		852147965E9A5067FAF833E2B1237802 /* ORRingChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E1027E502A35EC5AEBE88A4AA067B7D /* ORRingChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89B6FD9A8FF285257FBDFDBF2878754C /* ORCharts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D20C34816D8B31C00DA532FE47EE48E /* ORCharts-dummy.m */; };
-		8B9B5CB652E6CACD7E643F1FFF47E31F /* ORLineChartButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 434675E0252A597154E9E8AA1472AC52 /* ORLineChartButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CFCF0093E646DE46DAC554BEEB9D0CE /* ORLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = C103453A2F169F1B9788FE6D349EA1D2 /* ORLineChartView.m */; };
-		9939B502A1728DC4595D6A9E81E8E30F /* ORLineChartValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 270FC8B37396177E4FBFA75CCA3140D6 /* ORLineChartValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CAF1A24BF735B4ADF2C9C58A76EBF52 /* Pods-ORCharts_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0A7E71E5048382E42A2A75EAB7555 /* Pods-ORCharts_Example-dummy.m */; };
-		B398E261FB330322E64969055190767F /* Pods-ORCharts_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF838311121533048218B1AD02DE05F /* Pods-ORCharts_Tests-dummy.m */; };
-		BD1A850A104E0A9EEE67C41D06DD02F3 /* ORRingChartConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 594872811A1A10BEF97C7A923786B259 /* ORRingChartConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE3BBD8EF3E99988A80A74F5AC0D7BEA /* Pods-ORCharts_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73111C8559D0C38121E1F42E4E336FFF /* Pods-ORCharts_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C76728EF865C010D73418231E3D8F35E /* ORChartUtilities+ORRing.h in Headers */ = {isa = PBXBuildFile; fileRef = C2DF924A8441349B2FE5735C40AF6FA1 /* ORChartUtilities+ORRing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8DA205FD91BCD0B46E0A8D1F945DA57 /* ORLineChartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2C8AB6A8206D436377AB77426829A3 /* ORLineChartConfig.m */; };
-		CA9972AFD719B43C9BF536FA94B381BB /* ORLineChartConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1325749BFD8E29D08B9F02D1BAC79187 /* ORLineChartConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F17372099261564B69B2C701ECD9B8BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F3F1F21BC8FD94992CCCE6E02802AE96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F809C5AE1EEDC29A11AFFCF28B58BD5D /* ORChartUtilities+ORRing.m in Sources */ = {isa = PBXBuildFile; fileRef = 345E75ECF1B4F4DFB702944B6C811851 /* ORChartUtilities+ORRing.m */; };
+		01DC2F2448DF863867A1D1EB61CBF743 /* ORChartUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AC67CA7709CE27AF98A606DEDFBB86CA /* ORChartUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		091CD6E564425B67A6F9EC2C17CCC605 /* ORRingChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEEB37889DE7DC52BE61343652F98EC /* ORRingChartView.m */; };
+		0E0235098299DC5EC6440B328C3BCB2B /* ORChartUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3580DF3BCB90B454D58C0EE157C80082 /* ORChartUtilities.m */; };
+		16B5405BF55E7F63EA2F82C7151D4CA9 /* ORLineChartCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 34940F55D69A713E28C388308BFC6315 /* ORLineChartCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19AD18E74BD51F138BB4C94C20D14C63 /* ORCharts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF6315F4CAFEA267BE6B1BCCC426192 /* ORCharts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36ED54865711248DA10F2FBB3E3DB01B /* ORLineChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79675404A02EC13A945F460E90AD2522 /* ORLineChartCell.m */; };
+		3D2041C3E5F83E1BF246FE9822FD110A /* ORLineChartValue.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1F2EAD646C3C79AD8F54C5E11132C8 /* ORLineChartValue.m */; };
+		46BE74539BCF88D478EDA7A328880DE1 /* ORRingChartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E77DC640211BD12F5101C7E3AE71E7 /* ORRingChartConfig.m */; };
+		50C96D47C50A35E237819AD189663902 /* Pods-ORCharts_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE954EF40A1CC664B2461145BFA30228 /* Pods-ORCharts_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AD5D578D5186CC5E8C33A019698FDEE /* ORLineChartButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F474D1B99D227F297A6C7C9735FCC /* ORLineChartButton.m */; };
+		62BEB098B94DE0C400AEB2EDC4B42189 /* Pods-ORCharts_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73111C8559D0C38121E1F42E4E336FFF /* Pods-ORCharts_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E7BBF27F7C44507A5BA1EEBF847F24F /* ORLineChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6395CB4DC84A98322CB1CA82583B3163 /* ORLineChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		852147965E9A5067FAF833E2B1237802 /* ORRingChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB828BCA33397976A41284E5956D945 /* ORRingChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89B6FD9A8FF285257FBDFDBF2878754C /* ORCharts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93543D22F61CBE55C570574B3F67EEF6 /* ORCharts-dummy.m */; };
+		8B9B5CB652E6CACD7E643F1FFF47E31F /* ORLineChartButton.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB9CD56B4A6145C7A363B893B24AD42 /* ORLineChartButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C15E8944BEACE42ABE42D6B43E2EFEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8CFCF0093E646DE46DAC554BEEB9D0CE /* ORLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C873E4EABB3E6C86F9C59588BD84D78 /* ORLineChartView.m */; };
+		9939B502A1728DC4595D6A9E81E8E30F /* ORLineChartValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 7649E26C3F402C3E73E4EC9AD98A2E2D /* ORLineChartValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1A22BC91E308CC281B4C620083FC4CC /* Pods-ORCharts_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0A7E71E5048382E42A2A75EAB7555 /* Pods-ORCharts_Example-dummy.m */; };
+		AB5ED7EA3119A590CB330BAF3709AC74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BD1A850A104E0A9EEE67C41D06DD02F3 /* ORRingChartConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 359676692D9B33EF5A9471B59933ACD7 /* ORRingChartConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C76728EF865C010D73418231E3D8F35E /* ORChartUtilities+ORRing.h in Headers */ = {isa = PBXBuildFile; fileRef = 44F139F9C5CFBCD4A33DBF37E1D5B4B6 /* ORChartUtilities+ORRing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8DA205FD91BCD0B46E0A8D1F945DA57 /* ORLineChartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E77E21EC4B8C87A9E197FF7F4BEF8F2 /* ORLineChartConfig.m */; };
+		CA9972AFD719B43C9BF536FA94B381BB /* ORLineChartConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 862746B9EE95BF6C309FBEAF91711D88 /* ORLineChartConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E36C87D13C1A1989CCB920C1BEA100E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F809C5AE1EEDC29A11AFFCF28B58BD5D /* ORChartUtilities+ORRing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF993B5A6E35F17E341C03BB8BC2214 /* ORChartUtilities+ORRing.m */; };
+		FBE1E55250E9B8B67EDFFD4411C2BE6D /* Pods-ORCharts_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF838311121533048218B1AD02DE05F /* Pods-ORCharts_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		90667B980CC7C492D7AEDD46280BCDD7 /* PBXContainerItemProxy */ = {
+		52CEC7ABA19F0D0DDD2BBD9FF7DDD1E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A11FC044802354C47210229B2FBFF492;
 			remoteInfo = "Pods-ORCharts_Example";
 		};
-		99C5E68158D2D815AED6A7074D67D4F2 /* PBXContainerItemProxy */ = {
+		F420F18EBFCFEFDEC9FDDAD945790362 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -56,69 +56,70 @@
 /* Begin PBXFileReference section */
 		0855C0C2C0FA724CCAE0E5659A7F7C77 /* Pods-ORCharts_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORCharts_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0CD84949B59CB24D1939B0706BE69339 /* Pods-ORCharts_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORCharts_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1325749BFD8E29D08B9F02D1BAC79187 /* ORLineChartConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORLineChartConfig.h; path = ORCharts/Classes/ORLineChart/ORLineChartConfig.h; sourceTree = "<group>"; };
-		14C605A9CF9A7B81747DC0CAFD9017AD /* ORCharts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORCharts-prefix.pch"; sourceTree = "<group>"; };
-		15FD2DC667BC8D9FED74211FB65E9989 /* ORRingChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORRingChartView.m; path = ORCharts/Classes/ORRingChart/ORRingChartView.m; sourceTree = "<group>"; };
 		1AB73625F8501ED0F868115684ECF3E8 /* Pods_ORCharts_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ORCharts_Example.framework; path = "Pods-ORCharts_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D828C19AB096771B0127B9523E0BC6F /* Pods-ORCharts_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ORCharts_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1E1027E502A35EC5AEBE88A4AA067B7D /* ORRingChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORRingChartView.h; path = ORCharts/Classes/ORRingChart/ORRingChartView.h; sourceTree = "<group>"; };
 		23E5779E8EAC5E37CB5A68A824976421 /* Pods-ORCharts_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORCharts_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		26B63B179326DFB1DE9F7A01EF821785 /* ORLineChartValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORLineChartValue.m; path = ORCharts/Classes/ORLineChart/ORLineChartValue.m; sourceTree = "<group>"; };
-		270FC8B37396177E4FBFA75CCA3140D6 /* ORLineChartValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORLineChartValue.h; path = ORCharts/Classes/ORLineChart/ORLineChartValue.h; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		345E75ECF1B4F4DFB702944B6C811851 /* ORChartUtilities+ORRing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ORChartUtilities+ORRing.m"; path = "ORCharts/Classes/ORRingChart/ORChartUtilities+ORRing.m"; sourceTree = "<group>"; };
-		360E0FAFF50907F865E9BA8C06B6AB71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2BF993B5A6E35F17E341C03BB8BC2214 /* ORChartUtilities+ORRing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ORChartUtilities+ORRing.m"; path = "ORCharts/Classes/ORRingChart/ORChartUtilities+ORRing.m"; sourceTree = "<group>"; };
+		339FE95F7936E4F7AA4AB5BFB57F8797 /* ORCharts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORCharts-prefix.pch"; sourceTree = "<group>"; };
+		34411FB978933ED5E8FE30CE440D0DF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		34940F55D69A713E28C388308BFC6315 /* ORLineChartCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORLineChartCell.h; path = ORCharts/Classes/ORLineChart/ORLineChartCell.h; sourceTree = "<group>"; };
+		3580DF3BCB90B454D58C0EE157C80082 /* ORChartUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORChartUtilities.m; path = ORCharts/Classes/ORChartUtilities/ORChartUtilities.m; sourceTree = "<group>"; };
+		359676692D9B33EF5A9471B59933ACD7 /* ORRingChartConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORRingChartConfig.h; path = ORCharts/Classes/ORRingChart/ORRingChartConfig.h; sourceTree = "<group>"; };
 		36A9643DE2BEC1277D84CC3A25B583DB /* Pods-ORCharts_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORCharts_Example-frameworks.sh"; sourceTree = "<group>"; };
-		37CBD509D2C1CFE356B258F5277410F3 /* ORCharts.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ORCharts.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3B8E2EDB6DBFBAEF6BA3387A954336FB /* Pods-ORCharts_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORCharts_Tests-Info.plist"; sourceTree = "<group>"; };
-		434675E0252A597154E9E8AA1472AC52 /* ORLineChartButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORLineChartButton.h; path = ORCharts/Classes/ORLineChart/ORLineChartButton.h; sourceTree = "<group>"; };
-		52CACBE24DA38277ABA115FCA18CFBBC /* ORChartUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORChartUtilities.h; path = ORCharts/Classes/ORChartUtilities/ORChartUtilities.h; sourceTree = "<group>"; };
-		54552E9A8BC5933D7C1495AF19B9232E /* ORCharts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ORCharts.xcconfig; sourceTree = "<group>"; };
+		44F139F9C5CFBCD4A33DBF37E1D5B4B6 /* ORChartUtilities+ORRing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ORChartUtilities+ORRing.h"; path = "ORCharts/Classes/ORRingChart/ORChartUtilities+ORRing.h"; sourceTree = "<group>"; };
 		56AB079649F51CDAC943BFB1396591EA /* Pods-ORCharts_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORCharts_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		58AE3E8E35E03A76BBBCB84A73AC778A /* ORLineChartCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORLineChartCell.h; path = ORCharts/Classes/ORLineChart/ORLineChartCell.h; sourceTree = "<group>"; };
-		594872811A1A10BEF97C7A923786B259 /* ORRingChartConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORRingChartConfig.h; path = ORCharts/Classes/ORRingChart/ORRingChartConfig.h; sourceTree = "<group>"; };
 		5ECA06038E542DB46972EF9A75B503F6 /* Pods_ORCharts_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ORCharts_Tests.framework; path = "Pods-ORCharts_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6052343CAE0036544C9460EE2C169EDE /* ORCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ORCharts.framework; path = ORCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		681ABCC0FFA029371C14FD7BD085C9C7 /* ORLineChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORLineChartView.h; path = ORCharts/Classes/ORLineChart/ORLineChartView.h; sourceTree = "<group>"; };
-		69BBAA13D3CC03ACB2E04FCA240C76A7 /* ORCharts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORCharts-umbrella.h"; sourceTree = "<group>"; };
+		61D232AE8EC21FC4970A89D76662B7C3 /* ORCharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ORCharts.debug.xcconfig; sourceTree = "<group>"; };
+		6395CB4DC84A98322CB1CA82583B3163 /* ORLineChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORLineChartView.h; path = ORCharts/Classes/ORLineChart/ORLineChartView.h; sourceTree = "<group>"; };
 		6DDF3E396A27E1D6DE5544DDBDC5732A /* Pods-ORCharts_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ORCharts_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6DF838311121533048218B1AD02DE05F /* Pods-ORCharts_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ORCharts_Tests-dummy.m"; sourceTree = "<group>"; };
+		6EB828BCA33397976A41284E5956D945 /* ORRingChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORRingChartView.h; path = ORCharts/Classes/ORRingChart/ORRingChartView.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73111C8559D0C38121E1F42E4E336FFF /* Pods-ORCharts_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ORCharts_Tests-umbrella.h"; sourceTree = "<group>"; };
-		78C408F7C114459C84E61294DDA875D9 /* ORCharts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ORCharts.modulemap; sourceTree = "<group>"; };
-		7B85CAFF60B90AA1CD3ABCCCD029A493 /* ORRingChartConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORRingChartConfig.m; path = ORCharts/Classes/ORRingChart/ORRingChartConfig.m; sourceTree = "<group>"; };
+		7649E26C3F402C3E73E4EC9AD98A2E2D /* ORLineChartValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORLineChartValue.h; path = ORCharts/Classes/ORLineChart/ORLineChartValue.h; sourceTree = "<group>"; };
+		79675404A02EC13A945F460E90AD2522 /* ORLineChartCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORLineChartCell.m; path = ORCharts/Classes/ORLineChart/ORLineChartCell.m; sourceTree = "<group>"; };
+		7C873E4EABB3E6C86F9C59588BD84D78 /* ORLineChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORLineChartView.m; path = ORCharts/Classes/ORLineChart/ORLineChartView.m; sourceTree = "<group>"; };
 		7CF0A7E71E5048382E42A2A75EAB7555 /* Pods-ORCharts_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ORCharts_Example-dummy.m"; sourceTree = "<group>"; };
-		7D20C34816D8B31C00DA532FE47EE48E /* ORCharts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ORCharts-dummy.m"; sourceTree = "<group>"; };
-		8A21DA7475457A876CD9DE7E54A8ED94 /* ORLineChartCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORLineChartCell.m; path = ORCharts/Classes/ORLineChart/ORLineChartCell.m; sourceTree = "<group>"; };
+		7F756EB0247EF309D21199B68ABA054E /* ORCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ORCharts.release.xcconfig; sourceTree = "<group>"; };
+		8584D7F14A6F09D048B157B8FAB5AEE4 /* ORCharts.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ORCharts.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		862746B9EE95BF6C309FBEAF91711D88 /* ORLineChartConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORLineChartConfig.h; path = ORCharts/Classes/ORLineChart/ORLineChartConfig.h; sourceTree = "<group>"; };
+		86E77DC640211BD12F5101C7E3AE71E7 /* ORRingChartConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORRingChartConfig.m; path = ORCharts/Classes/ORRingChart/ORRingChartConfig.m; sourceTree = "<group>"; };
+		8883792830D6F1890CEFE0C4388B5A9E /* ORCharts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ORCharts.modulemap; sourceTree = "<group>"; };
+		8E2CB72D9DF0A2D81646B0A724825776 /* ORCharts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ORCharts-Info.plist"; sourceTree = "<group>"; };
 		9146B1F8F196D477C5BA7762774B1409 /* Pods-ORCharts_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ORCharts_Tests.modulemap"; sourceTree = "<group>"; };
-		96EBEF0878685717944A639786F967EB /* ORChartUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORChartUtilities.m; path = ORCharts/Classes/ORChartUtilities/ORChartUtilities.m; sourceTree = "<group>"; };
+		93543D22F61CBE55C570574B3F67EEF6 /* ORCharts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ORCharts-dummy.m"; sourceTree = "<group>"; };
 		99C9EC2A71482CC3E99180EA91CD97C9 /* Pods-ORCharts_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORCharts_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9BF6315F4CAFEA267BE6B1BCCC426192 /* ORCharts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORCharts-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E77E21EC4B8C87A9E197FF7F4BEF8F2 /* ORLineChartConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORLineChartConfig.m; path = ORCharts/Classes/ORLineChart/ORLineChartConfig.m; sourceTree = "<group>"; };
 		A4D93653A394CBE80EC90ABEA53A30F9 /* Pods-ORCharts_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORCharts_Example-Info.plist"; sourceTree = "<group>"; };
+		ABB9CD56B4A6145C7A363B893B24AD42 /* ORLineChartButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORLineChartButton.h; path = ORCharts/Classes/ORLineChart/ORLineChartButton.h; sourceTree = "<group>"; };
+		AC67CA7709CE27AF98A606DEDFBB86CA /* ORChartUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORChartUtilities.h; path = ORCharts/Classes/ORChartUtilities/ORChartUtilities.h; sourceTree = "<group>"; };
 		AE954EF40A1CC664B2461145BFA30228 /* Pods-ORCharts_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ORCharts_Example-umbrella.h"; sourceTree = "<group>"; };
 		B8702BB8386C0303B94439AFC9520A9C /* Pods-ORCharts_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ORCharts_Example.modulemap"; sourceTree = "<group>"; };
 		BF92F0882320F591E6CAF3D5BE836CF8 /* Pods-ORCharts_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORCharts_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C103453A2F169F1B9788FE6D349EA1D2 /* ORLineChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORLineChartView.m; path = ORCharts/Classes/ORLineChart/ORLineChartView.m; sourceTree = "<group>"; };
-		C2DF924A8441349B2FE5735C40AF6FA1 /* ORChartUtilities+ORRing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ORChartUtilities+ORRing.h"; path = "ORCharts/Classes/ORRingChart/ORChartUtilities+ORRing.h"; sourceTree = "<group>"; };
-		CF2C8AB6A8206D436377AB77426829A3 /* ORLineChartConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORLineChartConfig.m; path = ORCharts/Classes/ORLineChart/ORLineChartConfig.m; sourceTree = "<group>"; };
-		D47085A9421DDFD1E6894F31415B3134 /* ORLineChartButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORLineChartButton.m; path = ORCharts/Classes/ORLineChart/ORLineChartButton.m; sourceTree = "<group>"; };
-		E95B9771DA1010640AC2434818B7C65E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F15BC0A55F4312DF8D70B1FD5B151680 /* ORCharts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ORCharts-Info.plist"; sourceTree = "<group>"; };
+		CA1F2EAD646C3C79AD8F54C5E11132C8 /* ORLineChartValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORLineChartValue.m; path = ORCharts/Classes/ORLineChart/ORLineChartValue.m; sourceTree = "<group>"; };
+		DA5F474D1B99D227F297A6C7C9735FCC /* ORLineChartButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORLineChartButton.m; path = ORCharts/Classes/ORLineChart/ORLineChartButton.m; sourceTree = "<group>"; };
+		F1B0EBA6C5DFA3E16F51871D7EEE9F33 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FAEEB37889DE7DC52BE61343652F98EC /* ORRingChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORRingChartView.m; path = ORCharts/Classes/ORRingChart/ORRingChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		434B96D899EE6A8BD5CEC4942AAC0E99 /* Frameworks */ = {
+		35410EAF325EC800FD2E6F52BFD1733E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F17372099261564B69B2C701ECD9B8BA /* Foundation.framework in Frameworks */,
+				E36C87D13C1A1989CCB920C1BEA100E5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90224D071054E089D9C2048EFB036A24 /* Frameworks */ = {
+		4A8F07D954F0E2EF5BB208B07E2708BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22EF7BFB3D8178BCAC525045D4C80C94 /* Foundation.framework in Frameworks */,
+				AB5ED7EA3119A590CB330BAF3709AC74 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3F1F21BC8FD94992CCCE6E02802AE96 /* Foundation.framework in Frameworks */,
+				8C15E8944BEACE42ABE42D6B43E2EFEA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,57 +151,66 @@
 			path = "Target Support Files/Pods-ORCharts_Example";
 			sourceTree = "<group>";
 		};
-		1B3F5B9305683A5B152DC0B418F40ED9 /* Pod */ = {
+		01871B6E272DBCD72DFD17DCA454ECD5 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				E95B9771DA1010640AC2434818B7C65E /* LICENSE */,
-				37CBD509D2C1CFE356B258F5277410F3 /* ORCharts.podspec */,
-				360E0FAFF50907F865E9BA8C06B6AB71 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		639FD40501558F0B365B19B069980F13 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				52CACBE24DA38277ABA115FCA18CFBBC /* ORChartUtilities.h */,
-				96EBEF0878685717944A639786F967EB /* ORChartUtilities.m */,
+				AC67CA7709CE27AF98A606DEDFBB86CA /* ORChartUtilities.h */,
+				3580DF3BCB90B454D58C0EE157C80082 /* ORChartUtilities.m */,
 			);
 			name = Util;
 			sourceTree = "<group>";
 		};
-		8F594575774A88A6E7D74ED7E30B233E /* ORCharts */ = {
+		3239AAFCF5B46913D283410EBE1CED7E /* Line */ = {
 			isa = PBXGroup;
 			children = (
-				D2FE4E939A84FF5117681FD42E0AD425 /* Line */,
-				1B3F5B9305683A5B152DC0B418F40ED9 /* Pod */,
-				AA595BBDB9CED1CE52C6646BA427FF71 /* Ring */,
-				F82C855DDA2C646A1ECA5FA2D89E92F4 /* Support Files */,
-				639FD40501558F0B365B19B069980F13 /* Util */,
+				ABB9CD56B4A6145C7A363B893B24AD42 /* ORLineChartButton.h */,
+				DA5F474D1B99D227F297A6C7C9735FCC /* ORLineChartButton.m */,
+				34940F55D69A713E28C388308BFC6315 /* ORLineChartCell.h */,
+				79675404A02EC13A945F460E90AD2522 /* ORLineChartCell.m */,
+				862746B9EE95BF6C309FBEAF91711D88 /* ORLineChartConfig.h */,
+				9E77E21EC4B8C87A9E197FF7F4BEF8F2 /* ORLineChartConfig.m */,
+				7649E26C3F402C3E73E4EC9AD98A2E2D /* ORLineChartValue.h */,
+				CA1F2EAD646C3C79AD8F54C5E11132C8 /* ORLineChartValue.m */,
+				6395CB4DC84A98322CB1CA82583B3163 /* ORLineChartView.h */,
+				7C873E4EABB3E6C86F9C59588BD84D78 /* ORLineChartView.m */,
+			);
+			name = Line;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		90172B55700B5168F972BB4432F9AB26 /* ORCharts */ = {
+			isa = PBXGroup;
+			children = (
+				3239AAFCF5B46913D283410EBE1CED7E /* Line */,
+				D111754D16ED6D593DF87444453E4AC2 /* Pod */,
+				FFB482F6415452D24B98C2F36237EC1B /* Ring */,
+				C9339E1BAAF35DB7C694ED086BFB1B6D /* Support Files */,
+				01871B6E272DBCD72DFD17DCA454ECD5 /* Util */,
 			);
 			name = ORCharts;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		AA595BBDB9CED1CE52C6646BA427FF71 /* Ring */ = {
+		C9339E1BAAF35DB7C694ED086BFB1B6D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C2DF924A8441349B2FE5735C40AF6FA1 /* ORChartUtilities+ORRing.h */,
-				345E75ECF1B4F4DFB702944B6C811851 /* ORChartUtilities+ORRing.m */,
-				594872811A1A10BEF97C7A923786B259 /* ORRingChartConfig.h */,
-				7B85CAFF60B90AA1CD3ABCCCD029A493 /* ORRingChartConfig.m */,
-				1E1027E502A35EC5AEBE88A4AA067B7D /* ORRingChartView.h */,
-				15FD2DC667BC8D9FED74211FB65E9989 /* ORRingChartView.m */,
+				8883792830D6F1890CEFE0C4388B5A9E /* ORCharts.modulemap */,
+				93543D22F61CBE55C570574B3F67EEF6 /* ORCharts-dummy.m */,
+				8E2CB72D9DF0A2D81646B0A724825776 /* ORCharts-Info.plist */,
+				339FE95F7936E4F7AA4AB5BFB57F8797 /* ORCharts-prefix.pch */,
+				9BF6315F4CAFEA267BE6B1BCCC426192 /* ORCharts-umbrella.h */,
+				61D232AE8EC21FC4970A89D76662B7C3 /* ORCharts.debug.xcconfig */,
+				7F756EB0247EF309D21199B68ABA054E /* ORCharts.release.xcconfig */,
 			);
-			name = Ring;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ORCharts";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -214,29 +224,22 @@
 			);
 			sourceTree = "<group>";
 		};
+		D111754D16ED6D593DF87444453E4AC2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				34411FB978933ED5E8FE30CE440D0DF1 /* LICENSE */,
+				8584D7F14A6F09D048B157B8FAB5AEE4 /* ORCharts.podspec */,
+				F1B0EBA6C5DFA3E16F51871D7EEE9F33 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D2FE4E939A84FF5117681FD42E0AD425 /* Line */ = {
-			isa = PBXGroup;
-			children = (
-				434675E0252A597154E9E8AA1472AC52 /* ORLineChartButton.h */,
-				D47085A9421DDFD1E6894F31415B3134 /* ORLineChartButton.m */,
-				58AE3E8E35E03A76BBBCB84A73AC778A /* ORLineChartCell.h */,
-				8A21DA7475457A876CD9DE7E54A8ED94 /* ORLineChartCell.m */,
-				1325749BFD8E29D08B9F02D1BAC79187 /* ORLineChartConfig.h */,
-				CF2C8AB6A8206D436377AB77426829A3 /* ORLineChartConfig.m */,
-				270FC8B37396177E4FBFA75CCA3140D6 /* ORLineChartValue.h */,
-				26B63B179326DFB1DE9F7A01EF821785 /* ORLineChartValue.m */,
-				681ABCC0FFA029371C14FD7BD085C9C7 /* ORLineChartView.h */,
-				C103453A2F169F1B9788FE6D349EA1D2 /* ORLineChartView.m */,
-			);
-			name = Line;
 			sourceTree = "<group>";
 		};
 		DD06D1A7B53723D77480D440408A7BCD /* Products */ = {
@@ -252,7 +255,7 @@
 		E4EF8513E4A58A70CB56AABF50697801 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8F594575774A88A6E7D74ED7E30B233E /* ORCharts */,
+				90172B55700B5168F972BB4432F9AB26 /* ORCharts */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -282,28 +285,27 @@
 			path = "Target Support Files/Pods-ORCharts_Tests";
 			sourceTree = "<group>";
 		};
-		F82C855DDA2C646A1ECA5FA2D89E92F4 /* Support Files */ = {
+		FFB482F6415452D24B98C2F36237EC1B /* Ring */ = {
 			isa = PBXGroup;
 			children = (
-				78C408F7C114459C84E61294DDA875D9 /* ORCharts.modulemap */,
-				54552E9A8BC5933D7C1495AF19B9232E /* ORCharts.xcconfig */,
-				7D20C34816D8B31C00DA532FE47EE48E /* ORCharts-dummy.m */,
-				F15BC0A55F4312DF8D70B1FD5B151680 /* ORCharts-Info.plist */,
-				14C605A9CF9A7B81747DC0CAFD9017AD /* ORCharts-prefix.pch */,
-				69BBAA13D3CC03ACB2E04FCA240C76A7 /* ORCharts-umbrella.h */,
+				44F139F9C5CFBCD4A33DBF37E1D5B4B6 /* ORChartUtilities+ORRing.h */,
+				2BF993B5A6E35F17E341C03BB8BC2214 /* ORChartUtilities+ORRing.m */,
+				359676692D9B33EF5A9471B59933ACD7 /* ORRingChartConfig.h */,
+				86E77DC640211BD12F5101C7E3AE71E7 /* ORRingChartConfig.m */,
+				6EB828BCA33397976A41284E5956D945 /* ORRingChartView.h */,
+				FAEEB37889DE7DC52BE61343652F98EC /* ORRingChartView.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ORCharts";
+			name = Ring;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		22E913245977589381DAB8CCE89325FA /* Headers */ = {
+		7930848DC0C38DD4FAE48C79C98F3FBE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE3BBD8EF3E99988A80A74F5AC0D7BEA /* Pods-ORCharts_Tests-umbrella.h in Headers */,
+				62BEB098B94DE0C400AEB2EDC4B42189 /* Pods-ORCharts_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,11 +326,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5155F768955BF21603A92BC84A448E2 /* Headers */ = {
+		96F0DA9FAAC6E14BEB76DFC2E24978E3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				157A4EF590170B3F56C661C393110CEE /* Pods-ORCharts_Example-umbrella.h in Headers */,
+				50C96D47C50A35E237819AD189663902 /* Pods-ORCharts_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,17 +357,17 @@
 		};
 		8729747151C8664970424A5DC0C2F1DE /* Pods-ORCharts_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C884C90CF2B2370C8E60BBA489DA3378 /* Build configuration list for PBXNativeTarget "Pods-ORCharts_Tests" */;
+			buildConfigurationList = D3AC4742015C82CE29F464D81E0A60B9 /* Build configuration list for PBXNativeTarget "Pods-ORCharts_Tests" */;
 			buildPhases = (
-				22E913245977589381DAB8CCE89325FA /* Headers */,
-				0F1DE9125FDC89668C9EDC453FF57061 /* Sources */,
-				434B96D899EE6A8BD5CEC4942AAC0E99 /* Frameworks */,
-				8422E54F5D3CADBD5314FECE67189361 /* Resources */,
+				7930848DC0C38DD4FAE48C79C98F3FBE /* Headers */,
+				E22DF9C0735946841A506F28C59B6AA7 /* Sources */,
+				4A8F07D954F0E2EF5BB208B07E2708BE /* Frameworks */,
+				AAF96E3CE3E8F6EB03C0FE93F96A7EEA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0C178D60E33437DE8D764135A3DCFB06 /* PBXTargetDependency */,
+				CEA50EDBDFF1E34DD32EC74DDA9070D9 /* PBXTargetDependency */,
 			);
 			name = "Pods-ORCharts_Tests";
 			productName = "Pods-ORCharts_Tests";
@@ -374,17 +376,17 @@
 		};
 		A11FC044802354C47210229B2FBFF492 /* Pods-ORCharts_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93BAF677C316716816BE81CF2213608B /* Build configuration list for PBXNativeTarget "Pods-ORCharts_Example" */;
+			buildConfigurationList = 0D0134748821583F4FC4A1BFB2C7D4D1 /* Build configuration list for PBXNativeTarget "Pods-ORCharts_Example" */;
 			buildPhases = (
-				E5155F768955BF21603A92BC84A448E2 /* Headers */,
-				FA66D52ED5B92052B9F924A49C5EBC3D /* Sources */,
-				90224D071054E089D9C2048EFB036A24 /* Frameworks */,
-				6F0B9B0660C88ABFDB3EAEF9D6F73172 /* Resources */,
+				96F0DA9FAAC6E14BEB76DFC2E24978E3 /* Headers */,
+				3BBE93E629103FD074BCB583C965C6F7 /* Sources */,
+				35410EAF325EC800FD2E6F52BFD1733E /* Frameworks */,
+				C857E898901D97C6226F1FBDEC0B954C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6ACF53D54B4B7021DD2D28D33018BD42 /* PBXTargetDependency */,
+				A303FD3C6946A9C0F7919573B4B01074 /* PBXTargetDependency */,
 			);
 			name = "Pods-ORCharts_Example";
 			productName = "Pods-ORCharts_Example";
@@ -406,6 +408,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = DD06D1A7B53723D77480D440408A7BCD /* Products */;
@@ -420,13 +423,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6F0B9B0660C88ABFDB3EAEF9D6F73172 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7C2FE5C0007553A28FB2D03C3C095B63 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -434,7 +430,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8422E54F5D3CADBD5314FECE67189361 /* Resources */ = {
+		AAF96E3CE3E8F6EB03C0FE93F96A7EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C857E898901D97C6226F1FBDEC0B954C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -444,11 +447,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0F1DE9125FDC89668C9EDC453FF57061 /* Sources */ = {
+		3BBE93E629103FD074BCB583C965C6F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B398E261FB330322E64969055190767F /* Pods-ORCharts_Tests-dummy.m in Sources */,
+				A1A22BC91E308CC281B4C620083FC4CC /* Pods-ORCharts_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,37 +472,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA66D52ED5B92052B9F924A49C5EBC3D /* Sources */ = {
+		E22DF9C0735946841A506F28C59B6AA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CAF1A24BF735B4ADF2C9C58A76EBF52 /* Pods-ORCharts_Example-dummy.m in Sources */,
+				FBE1E55250E9B8B67EDFFD4411C2BE6D /* Pods-ORCharts_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0C178D60E33437DE8D764135A3DCFB06 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ORCharts_Example";
-			target = A11FC044802354C47210229B2FBFF492 /* Pods-ORCharts_Example */;
-			targetProxy = 90667B980CC7C492D7AEDD46280BCDD7 /* PBXContainerItemProxy */;
-		};
-		6ACF53D54B4B7021DD2D28D33018BD42 /* PBXTargetDependency */ = {
+		A303FD3C6946A9C0F7919573B4B01074 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ORCharts;
 			target = 3C0D94682DF89B3B3A7369A0A1D2415D /* ORCharts */;
-			targetProxy = 99C5E68158D2D815AED6A7074D67D4F2 /* PBXContainerItemProxy */;
+			targetProxy = F420F18EBFCFEFDEC9FDDAD945790362 /* PBXContainerItemProxy */;
+		};
+		CEA50EDBDFF1E34DD32EC74DDA9070D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ORCharts_Example";
+			target = A11FC044802354C47210229B2FBFF492 /* Pods-ORCharts_Example */;
+			targetProxy = 52CEC7ABA19F0D0DDD2BBD9FF7DDD1E9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00686A8D8D8B68E3914C7B72461EFB0E /* Release */ = {
+		10EDD26B5772FC1770C9E877F1AFE710 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54552E9A8BC5933D7C1495AF19B9232E /* ORCharts.xcconfig */;
+			baseConfigurationReference = 61D232AE8EC21FC4970A89D76662B7C3 /* ORCharts.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -521,16 +523,81 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30CFDA576C7CF95B4B4033B62B41933F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23E5779E8EAC5E37CB5A68A824976421 /* Pods-ORCharts_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ORCharts_Tests/Pods-ORCharts_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ORCharts_Tests/Pods-ORCharts_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+		426ECA418E6A87E036F01D067F71602A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD84949B59CB24D1939B0706BE69339 /* Pods-ORCharts_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ORCharts_Example/Pods-ORCharts_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ORCharts_Example/Pods-ORCharts_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -553,6 +620,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -587,12 +655,11 @@
 			};
 			name = Release;
 		};
-		59B76AAF26D92E36DAD98308D9A67DA4 /* Debug */ = {
+		7EE7569E3FF6A18B90AD832E19CE6ECC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CD84949B59CB24D1939B0706BE69339 /* Pods-ORCharts_Example.debug.xcconfig */;
+			baseConfigurationReference = 0855C0C2C0FA724CCAE0E5659A7F7C77 /* Pods-ORCharts_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -615,16 +682,48 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EFAC5C2DDC71AB5DDB79475A56D3794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF92F0882320F591E6CAF3D5BE836CF8 /* Pods-ORCharts_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ORCharts_Tests/Pods-ORCharts_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ORCharts_Tests/Pods-ORCharts_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		6C8D696BC43FDA2256B2557E1F9A754F /* Debug */ = {
+		C0A1073A47F182826A65C72C0494E41B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54552E9A8BC5933D7C1495AF19B9232E /* ORCharts.xcconfig */;
+			baseConfigurationReference = 7F756EB0247EF309D21199B68ABA054E /* ORCharts.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -646,15 +745,17 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -677,6 +778,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -715,115 +817,23 @@
 			};
 			name = Debug;
 		};
-		921D8C7C5EF0382172F38C02C4CAE727 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF92F0882320F591E6CAF3D5BE836CF8 /* Pods-ORCharts_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ORCharts_Tests/Pods-ORCharts_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ORCharts_Tests/Pods-ORCharts_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E5E24E68CF69BE68621A180E03EBAFBF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23E5779E8EAC5E37CB5A68A824976421 /* Pods-ORCharts_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ORCharts_Tests/Pods-ORCharts_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ORCharts_Tests/Pods-ORCharts_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F35051F272D6CD356AA71B33AB036046 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0855C0C2C0FA724CCAE0E5659A7F7C77 /* Pods-ORCharts_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ORCharts_Example/Pods-ORCharts_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ORCharts_Example/Pods-ORCharts_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0D0134748821583F4FC4A1BFB2C7D4D1 /* Build configuration list for PBXNativeTarget "Pods-ORCharts_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426ECA418E6A87E036F01D067F71602A /* Debug */,
+				7EE7569E3FF6A18B90AD832E19CE6ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
-				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -831,26 +841,17 @@
 		8C14589F778C4618684729E21A454389 /* Build configuration list for PBXNativeTarget "ORCharts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C8D696BC43FDA2256B2557E1F9A754F /* Debug */,
-				00686A8D8D8B68E3914C7B72461EFB0E /* Release */,
+				10EDD26B5772FC1770C9E877F1AFE710 /* Debug */,
+				C0A1073A47F182826A65C72C0494E41B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93BAF677C316716816BE81CF2213608B /* Build configuration list for PBXNativeTarget "Pods-ORCharts_Example" */ = {
+		D3AC4742015C82CE29F464D81E0A60B9 /* Build configuration list for PBXNativeTarget "Pods-ORCharts_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59B76AAF26D92E36DAD98308D9A67DA4 /* Debug */,
-				F35051F272D6CD356AA71B33AB036046 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C884C90CF2B2370C8E60BBA489DA3378 /* Build configuration list for PBXNativeTarget "Pods-ORCharts_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				921D8C7C5EF0382172F38C02C4CAE727 /* Debug */,
-				E5E24E68CF69BE68621A180E03EBAFBF /* Release */,
+				7EFAC5C2DDC71AB5DDB79475A56D3794 /* Debug */,
+				30CFDA576C7CF95B4B4033B62B41933F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

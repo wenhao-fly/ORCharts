@@ -2,7 +2,10 @@ use_frameworks!
 
 platform :ios, '8.0'
 
+install! 'cocoapods', :disable_input_output_paths => true
+
 target 'ORCharts_Example' do
+  
   pod 'ORCharts', :path => '../'
 
   target 'ORCharts_Tests' do
